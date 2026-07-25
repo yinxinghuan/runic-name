@@ -1,0 +1,26 @@
+{
+  "selected_request": "poster-request-v5.json",
+  "selected_url": "https://cdn.aiwaves.tech/prod/telegram/avatar/0/1784966468728397.webp",
+  "rejected": [
+    {
+      "request": "poster-request.json",
+      "url": "https://cdn.aiwaves.tech/prod/telegram/avatar/0/1784966205362697.webp",
+      "reason": "Added a Viking helmet, fire and ritual architecture."
+    },
+    {
+      "request": "poster-request-v2.json",
+      "url": "https://cdn.aiwaves.tech/prod/telegram/avatar/0/1784966298768563.webp",
+      "reason": "Repeated the hand motif used by other series posters."
+    },
+    {
+      "request": "poster-request-v3.json",
+      "url": "https://cdn.aiwaves.tech/prod/telegram/avatar/0/1784966351360636.webp",
+      "reason": "Added a helmet, beard, weapons and framed fire."
+    },
+    {
+      "request": "poster-request-v4.json",
+      "url": "https://cdn.aiwaves.tech/prod/telegram/avatar/0/1784966406159516.webp",
+      "reason": "Nearly clean, but retained an unrelated gold torch."
+    }
+  ]
+}
