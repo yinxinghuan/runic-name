@@ -20,8 +20,9 @@
 ## 3. 核心模块
 
 启动时先判断 `?baseline=1`。基线模式加载原作 24 张纹理并隐藏产品 UI；产品
-模式通过 `/note/telegram/user/get/info/by/telegram_id` 读取必有的
-`user_name`，平台外使用 `AlterU`。`nameToGlyphs()` 处理 `TH`、`NG` 二合字符、
+模式通过 `/note/telegram/user/get/info/by/telegram_id` 读取资料接口必有的
+`data.name`，`data.user_name` 仅作旧数据兼容；平台外使用 `AlterU`。
+`nameToGlyphs()` 处理 `TH`、`NG` 二合字符、
 拉丁近似音值及 Unicode 稳定哈希，生成 12–24 张纹理序列。
 
 `Items` 保留原作拖动、滚轮、摩擦和 shader 进出场，并增加键盘、真实推进的
