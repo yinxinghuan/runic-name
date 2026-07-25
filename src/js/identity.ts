@@ -5,6 +5,7 @@ import {
 } from '../shared/runtime/bridge';
 
 type TAlterUProfile = {
+  name?: string;
   user_name?: string;
 };
 
@@ -24,8 +25,8 @@ export async function resolveIdentityName() {
       )}`,
       'GET',
     );
-    const name = response.data?.user_name?.trim();
-    if (!name) throw new Error('AlterU profile did not return user_name');
+    const name = (response.data?.name || response.data?.user_name)?.trim();
+    if (!name) throw new Error('AlterU profile did not return name');
 
     return name;
   }
